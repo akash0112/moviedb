@@ -1,0 +1,90 @@
+.pagecontainer {
+  padding: 1rem 2rem;
+}
+
+.loginformcontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.loginforminput {
+  outline: none;
+  border: 1px solid gray;
+  padding: 10px;
+  border-radius: 8px;
+  width: 20rem;
+}
+.formsubmitbutton {
+  padding: 10px 16px;
+  background: rgb(6, 187, 60);
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+  width: 20rem;
+}
+.card {
+  width: 14rem;
+  height: 20rem;
+  cursor: pointer;
+}
+.cardwrapper {
+  padding-left: 1rem;
+  display: flex;
+  gap: 2rem;
+}
+.rule {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 60%;
+  height: 1px;
+}
+.title {
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+.subtitle {
+  color: white;
+  font-size: 14px;
+}
+.detailscardwrapper {
+  padding-left: 1rem;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+.detailswrapper {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
+.detailscardwrapper {
+  padding-left: 1rem;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+.detailscard {
+  width: 30rem;
+  height: 30rem;
+}
+.wishlistcardwrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+.nodata {
+  position: absolute;
+  left: 35%;
+  top: 50%;
+  font-size: 40px;
+  font-weight: 500;
+  color: rgb(78, 25, 76);
+}
