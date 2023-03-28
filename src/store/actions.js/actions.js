@@ -37,3 +37,10 @@ export const login = (formData) => async (dispatch) => {
     payload: formData,
   });
 };
+
+export const logout = (loggedInValue) => async (dispatch) => {
+  dispatch({
+    type: "LOGOUT",
+    payload: loggedInValue,
+  });
+};
